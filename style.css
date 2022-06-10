@@ -1,0 +1,54 @@
+body
+{
+    text-align: center;
+    background-image:url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+}
+#heading1
+{
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#take_snapshot_btn
+{
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
+#take_snapshot_btn:hover
+{
+    background-color: pink;
+    color:purple;
+}
+canvas
+{
+    margin-top: 90px;
+    background-color: white;
+    border-style: solid;
+    border-width: 6px;
+    border-left-color:violet;
+    border-right-color:violet;
+    border-top-color:purple;
+    border-bottom-color:purple;
+    padding: 10px;
+    animation: shadow_color_change 3s infinite;
+    display:inline-block;
+    text-align: center;
+}
+@keyframes shadow_color_change
+{
+    from
+    {
+        border-left-color:violet;
+        border-right-color:violet;
+        border-top-color:purple;
+        border-bottom-color:purple;  
+        border-width:10px ;
+    }
+    to
+    {
+        border-left-color:purple;
+        border-right-color:purple;
+        border-top-color:violet;
+        border-bottom-color:violet;
+        border-width:15px;
+    }
+}
